@@ -1,0 +1,43 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .major {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
